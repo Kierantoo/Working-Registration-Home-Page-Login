@@ -44,8 +44,8 @@ namespace Pokemon_Login_Page
                     username = Usernametxt.Text;
                     user_password = Passwordtxt.Text;
 
-                    Form2 form2 = new Form2();
-                    form2.Show();
+                    Form3 home = new Form3();
+                    home.Show();
                     this.Hide();
                 }
 
